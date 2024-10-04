@@ -163,7 +163,7 @@ resource "aws_instance" "webserver2" {
   user_data              = file("apache.sh")
 
   tags = {
-    Name = "SWIGGY-Web-Server-2"
+    Name = "SWIGGY-WEB-Server-2"
   }
 }
 
